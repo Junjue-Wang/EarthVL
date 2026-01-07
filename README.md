@@ -6,6 +6,9 @@ Zihang Chen,
 <a href="http://zhuozheng.top/">Zhuo Zheng</a>, 
  Ailong Ma, and <a href="http://www.lmars.whu.edu.cn/prof_web/zhangliangpei/rs/index.html">Liangpei Zhang</a></h5>
 
+[[`Paper`](https://arxiv.org/pdf/2601.02783)], 
+[[`Dataset`](https://github.com/Junjue-Wang/DisasterM3)]
+
 
 <div align="center">
   <img src="./src/dataset_vis.png"/>
@@ -42,13 +45,19 @@ sh ./scripts/train_generation.sh
 ```
 
 ## Citation
-If you use EarthVQA in your research, please cite our following papers.
+If you use EarthVL in your research, please cite our following papers.
 ```text
+    @article{wang2026earthvl,
+      title={EarthVL: A Progressive Earth Vision-Language Understanding and Generation Framework},
+      author={Wang, Junjue and Zhong, Yanfei and Chen, Zihang and Zheng, Zhuo and Ma, Ailong and Zhang, Liangpei},
+      journal={arXiv preprint arXiv:2601.02783},
+      year={2026}
+    }
     @article{wang2024earthvqa, 
         title={EarthVQA: Towards Queryable Earth via Relational Reasoning-Based Remote Sensing Visual Question Answering},
         url={https://ojs.aaai.org/index.php/AAAI/article/view/28357}, 
         DOI={10.1609/ai.v38i6.28357}, 
-        author={Junjue Wang and Zhuo Zheng and Zihang Chen and Ailong Ai and Yanfei Zhong}, 
+        author={Wang, Junjue and Zheng, Zhuo and Chen, Zihang and Ma, Ailong and Zhong, Yanfei}, 
         year={2024}, 
         month={Mar.},
         volume={38},
