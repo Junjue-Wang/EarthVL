@@ -7,7 +7,7 @@ Zihang Chen,
  Ailong Ma, and <a href="http://www.lmars.whu.edu.cn/prof_web/zhangliangpei/rs/index.html">Liangpei Zhang</a></h5>
 
 [[`Paper`](https://arxiv.org/pdf/2601.02783)], 
-[[`Dataset`](https://github.com/Junjue-Wang/DisasterM3)]
+[[`Dataset`](https://huggingface.co/datasets/Kingdrone-Junjue/EarthVLSet)]
 
 
 <div align="center">
