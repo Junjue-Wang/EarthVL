@@ -76,3 +76,7 @@ If you use EarthVL in your research, please cite our following papers.
 ```
 
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Junjue-Wang/EarthVL&type=Date)](https://star-history.com/#Junjue-Wang/EarthVL&Date)
+
