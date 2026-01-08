@@ -16,7 +16,7 @@ Zihang Chen,
 
 ## News
 - 2026/01/06, We are preparing the code and data for EarthVL.
-- 2024/09/25, EarthVL is the extension of our EarthVQA and LoveDA projects.
+- 2024/09/25, EarthVL is the extension of our [<b>EarthVQA</b>](https://github.com/Junjue-Wang/EarthVQA) and [<b>LoveDA</b>](https://github.com/Junjue-Wang/LoveDA) projects.
 
 
 
