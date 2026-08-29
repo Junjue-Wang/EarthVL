@@ -80,5 +80,10 @@ If you use EarthVL in your research, please cite our following papers.
 
 ## Star History
 
-[![Star History Chart](https://www.star-history.com/?type=date&repos=Junjue-Wang%2FEarthVL)](https://www.star-history.com/?type=date&repos=Junjue-Wang%2FEarthVL)
-
+<a href="https://www.star-history.com/?repos=Junjue-Wang%2FEarthVL&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Junjue-Wang/EarthVL&type=date&theme=dark&legend=top-left&sealed_token=tclzXUWuhSESMju1wByBan4RGLv9d2NF7zB52aHu7yRaiGV2mlspdYbS9UUPPLy0COrQ3d4jQgL6KvAUhD9IdW04C9u5gmzAYsx1ZyAiq7-iltwwnAB0o13_yDvnafRmZnMwUE1vsTgfYXEzzyKgqSwNCeUG3tGm5UuwymVvv3hi5NN0tvF1AiykE3nL" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Junjue-Wang/EarthVL&type=date&legend=top-left&sealed_token=tclzXUWuhSESMju1wByBan4RGLv9d2NF7zB52aHu7yRaiGV2mlspdYbS9UUPPLy0COrQ3d4jQgL6KvAUhD9IdW04C9u5gmzAYsx1ZyAiq7-iltwwnAB0o13_yDvnafRmZnMwUE1vsTgfYXEzzyKgqSwNCeUG3tGm5UuwymVvv3hi5NN0tvF1AiykE3nL" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Junjue-Wang/EarthVL&type=date&legend=top-left&sealed_token=tclzXUWuhSESMju1wByBan4RGLv9d2NF7zB52aHu7yRaiGV2mlspdYbS9UUPPLy0COrQ3d4jQgL6KvAUhD9IdW04C9u5gmzAYsx1ZyAiq7-iltwwnAB0o13_yDvnafRmZnMwUE1vsTgfYXEzzyKgqSwNCeUG3tGm5UuwymVvv3hi5NN0tvF1AiykE3nL" />
+ </picture>
+</a>
