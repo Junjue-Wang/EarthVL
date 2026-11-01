@@ -15,6 +15,7 @@ Zihang Chen,
 </div>
 
 ## News
+- 2026/11/01, EarthVL has been accepted by [<b>IEEE TPAMI</b>](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) !!!
 - 2026/01/06, New Global-LoveDA !!! We released the global-scale segmentation leaderboard at [<b>Global-LoveDA</b>](https://www.codabench.org/competitions/13040). Just zip all the test images into one file and submit it.
 - 2026/01/06, The segmentation data is released at [[`Dataset`](https://huggingface.co/datasets/Kingdrone-Junjue/EarthVLSet)].
 - 2026/01/06, We are preparing the code and data for EarthVL.
