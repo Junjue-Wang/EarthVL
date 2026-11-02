@@ -1,7 +1,27 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Example user template template
-### Example user template
-
-# IntelliJ project files
+# IDE
 .idea
 *.iml
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data, pre-trained weights, features and training outputs
+EarthVLSet/
+features/
+pretrain/
+log/
+wandb/
+*.pth
+*.pt
+*.safetensors
+*.hdf5
+vocabulary.pkl

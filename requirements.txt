@@ -1,0 +1,47 @@
+# EarthVL, Python 3.10-3.12. Install the PyTorch 2.4.1 build for your CUDA version first, e.g.
+#   pip install torch==2.4.1 --index-url https://download.pytorch.org/whl/cu121
+# (https://pytorch.org/get-started/previous-versions/), then
+#   pip install -r requirements.txt
+# The pinned versions are the ones the tests (python -m pytest tests -q) ran with.
+
+torch==2.4.1
+transformers==4.44.2
+tokenizers==0.19.1
+peft==0.12.0
+accelerate==1.15.0
+sentencepiece==0.2.2
+safetensors==0.8.0
+huggingface_hub==0.36.2
+ever-beta==0.6.1
+
+# albumentations must be 1.4.3: module/data_augs.py subclasses its flip / rotate transforms and calls 1.4.3 internals
+# (albumentations.augmentations.geometric.functional.hflip_cv2, the always_apply argument, also used by the configs),
+# and configs/seg/sfpn_convnext_large.py reproduces the authors' augmentations as 1.4.3 applied them. ever-beta
+# requires albumentations without a version, so without this pin pip installs a newer, incompatible release.
+albumentations==1.4.3
+opencv-python-headless==4.10.0.84
+
+# numpy < 2: the whole test suite ran with NumPy 1.26.4, and NumPy 2 is untested with this set of 2024 releases
+# (albumentations 1.4.3 and DeepSpeed 0.14 of the released LLM-branch run predate it; NumPy 2 also changes scalar type
+# promotion, NEP 50). OpenCV wheels >= 4.12 require NumPy 2, hence the OpenCV pin above; pandas (imported by ever-beta)
+# stays < 3.
+numpy==1.26.4
+pandas==2.2.3
+h5py==3.11.0
+scikit-image==0.24.0
+einops==0.8.2
+prettytable==3.18.0
+Pillow>=9.1  # tested with 13.0.0, which needs Python >= 3.11
+tqdm==4.70.1
+nltk==3.10.4  # only for the BLEU score of the open-ended metrics (module/metric.py)
+
+# ---------------------------------------------------------------------------------------------------------------------
+# Not installed by this file:
+# Training (both VQA branches and stage 1); the released LLM-branch run used DeepSpeed 0.14.0:
+#   pip install deepspeed==0.14.0
+# Optional:
+#   pip install flash-attn --no-build-isolation  # FlashAttention-2, the default attention of the LLM branch
+#                                                # (without it: model.params.attn_implementation sdpa)
+#   pip install bitsandbytes                     # QLoRA only (model.params.load_in_4bit True)
+#   pip install spacy && python -m spacy download en_core_web_sm  # open-ended data loader (data/earthvl_open.py)
+#   pip install pytest                           # tests
